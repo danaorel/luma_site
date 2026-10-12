@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Контакты и бронирование фотостудии Luma.">
+  <title>LUMA — контакты</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html">LUMA Studio</a>
+    <nav class="nav-links">
+      <a href="index.html">Главная</a>
+      <a href="portfolio.html">Портфолио</a>
+      <a class="active" href="contacts.html">Контакты</a>
+    </nav>
+    <a class="btn" href="#booking">Забронировать</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <div class="eyebrow reveal">Booking · Contacts</div>
+      <h1 class="reveal delay-1">Обсудим вашу съемку.</h1>
+      <p class="lead reveal delay-2">Расскажите, что хотите получить. Мы поможем с форматом, референсами, таймингом и подготовкой.</p>
+    </div>
+  </section>
+
+  <section class="section" id="booking" style="padding-top:30px">
+    <div class="wrap contact-grid">
+      <div class="contact-info reveal">
+        <h2>Просто напишите идею — остальное соберём вместе.</h2>
+        <p class="hero-copy">Ответим с предложением по формату съемки, длительности и подготовке.</p>
+
+        <div class="contact-list">
+          <div class="contact-item">
+            <small>Email</small>
+            <a href="mailto:hello@lumastudio.com">hello@lumastudio.com</a>
+          </div>
+          <div class="contact-item">
+            <small>Телефон</small>
+            <a href="tel:+491234567890">+49 123 456 78 90</a>
+          </div>
+          <div class="contact-item">
+            <small>График</small>
+            <span>Пн—Сб · 10:00—20:00</span>
+          </div>
+          <div class="contact-item">
+            <small>Адрес</small>
+            <span>Studio District, Frankfurt am Main</span>
+          </div>
+        </div>
+
+        <div class="map-card">
+          <div class="map-dot"></div>
+          <div class="map-label">LUMA Studio</div>
+        </div>
+      </div>
+
+      <form class="form reveal delay-1" action="#" onsubmit="return false;">
+        <div class="eyebrow">Request form</div>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Ваше имя">
+          </div>
+          <div class="field">
+            <label for="phone">Телефон</label>
+            <input id="phone" type="tel" placeholder="+49 ...">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="mail@example.com">
+        </div>
+
+        <div class="field">
+          <label for="type">Тип съемки</label>
+          <input id="type" type="text" placeholder="Портрет / бренд / fashion / другое">
+        </div>
+
+        <div class="field">
+          <label for="date">Желаемая дата</label>
+          <input id="date" type="text" placeholder="Например, 18 октября">
+        </div>
+
+        <div class="field">
+          <label for="message">Расскажите об идее</label>
+          <textarea id="message" placeholder="Что хочется снять, сколько людей, где будут использоваться фотографии..."></textarea>
+        </div>
+
+        <button class="btn" type="submit">Отправить заявку</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div class="footer-big">See you / soon</div>
+    <div class="footer-small">© 2026 Luma Studio<br>Photo · direction · visual stories</div>
+  </div>
+</footer>
+</body>
+</html>
